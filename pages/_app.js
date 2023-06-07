@@ -12,7 +12,7 @@ const App = ({ Component, pageProps }) => (
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
         <Head>
-          <title>pokemonmarket.com</title>
+          <title>pokemonnftmarket</title>
           <meta
             name="description"
             content="Pokemon Market NFT where you can buy and sell new NFTs."

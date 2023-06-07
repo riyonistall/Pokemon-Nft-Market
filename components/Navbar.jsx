@@ -140,7 +140,7 @@ const Navbar = () => {
             type="checkbox"
             className="checkbox"
             id="checkbox"
-            onChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+            onChange={() => setTheme(theme === 'dark' ? 'dark' : 'light')}
           />
           <label htmlFor="checkbox" className="flexBetween w-8 h-4 bg-black rounded-2xl p-1 relative label">
             <i className="fas fa-moon" />
