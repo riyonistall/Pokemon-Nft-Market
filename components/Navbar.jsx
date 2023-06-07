@@ -118,7 +118,7 @@ const Navbar = () => {
         <Link href="/">
           <div className="flexCenter md:hidden cursor-pointer" onClick={() => setActive('Explore Pokemon Market NFTs')}>
             <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="logo" />
-            <p className=" dark:text-white text-nft-black-1 font-semibold text-lg ml-1">Pokemon Market</p>
+            <p className=" dark:text-white text-nft-black-1 font-semibold text-lg ml-1">Pokemon NFT Market</p>
           </div>
         </Link>
         <Link href="/">
